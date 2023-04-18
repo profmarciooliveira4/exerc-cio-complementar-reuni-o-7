@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0 ;
+    background-color: #6078CF;
+    color:#FFFFFF;
+    border-radius: 50px 0px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.item-lista {
+    display: inline-block;
+    font-size:24px;
+    margin: 0 26px;
+}
+
+.livros {
+    background-image: linear-gradient(rgba(76, 73, 224, 1),
+rgba(76, 73, 224, 0));
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px 0;
+}
+
+.livros-conteudo {
+    width: 45%;
+}
+
+.titulo-section {
+    width: 796px;
+    left: 128px;
+    top: 242px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.texto-section {
+    width: 923px;
+    height: 99px;
+    left: 128px;
+    top: 382px;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+.divisaum {
+    display: flex;
+    text-align: center;
+}
+
+.olarubi-imagem {
+    width: 319px;
+    height: 366px;
+    left: 1068px;
+    top: 258px
+}
+
+.titulos-acervo {
+        
+}
+
+.acervo-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.acervo-div {
+}
+
+.clube-imagem {
+    width: 50%;
+}
+
+.fatos-imagem {
+    width: 50%;       
+}
+
+.scratchjr-imagem {
+    width: ;
+}
+
+.rodape {
+  background-image: linear-gradient(rgba(54, 97, 182, 0), rgba(54, 97, 182, 1));
+}
